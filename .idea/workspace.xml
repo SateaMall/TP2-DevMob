@@ -5,15 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="592f6131-713e-46f3-8eab-ca92a1262f8e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Question1/app/src/main/res/drawable/sharp_arrow_circle_left_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Question1/app/src/main/res/layout/floating_action_button.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rapport/rapport.aux" beforeDir="false" afterPath="$PROJECT_DIR$/rapport/rapport.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rapport/rapport.log" beforeDir="false" afterPath="$PROJECT_DIR$/rapport/rapport.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rapport/rapport.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/rapport/rapport.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rapport/rapport.tex" beforeDir="false" afterPath="$PROJECT_DIR$/rapport/rapport.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rapport/rapport.toc" beforeDir="false" afterPath="$PROJECT_DIR$/rapport/rapport.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Question1/.gradle/8.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Question1/.gradle/8.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Question1/.gradle/8.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Question1/.gradle/8.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1/.gradle/8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Question1/.gradle/8.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Question1/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1/.gradle/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Question1/.gradle/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Question1/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1/app/src/main/java/com/example/listedecapteurs/Accelerometer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Question1/app/src/main/java/com/example/listedecapteurs/Accelerometer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1/app/src/main/java/com/example/listedecapteurs/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/Question1/app/src/main/java/com/example/listedecapteurs/Direction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1/app/src/main/java/com/example/listedecapteurs/Geolocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Question1/app/src/main/java/com/example/listedecapteurs/Geolocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1/app/src/main/java/com/example/listedecapteurs/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/Question1/app/src/main/java/com/example/listedecapteurs/Index.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1/app/src/main/java/com/example/listedecapteurs/Proximity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Question1/app/src/main/java/com/example/listedecapteurs/Proximity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1/app/src/main/java/com/example/listedecapteurs/SensorAvailability.java" beforeDir="false" afterPath="$PROJECT_DIR$/Question1/app/src/main/java/com/example/listedecapteurs/SensorAvailability.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1/app/src/main/java/com/example/listedecapteurs/ShakeDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/Question1/app/src/main/java/com/example/listedecapteurs/ShakeDevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1/app/src/main/res/drawable/_86a508f_75e8_4320_9c4f_2391508e44c0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Question1/app/src/main/res/drawable/ai.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1/app/src/main/res/layout/activity_accelerometer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Question1/app/src/main/res/layout/activity_accelerometer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1/app/src/main/res/layout/activity_direction.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Question1/app/src/main/res/layout/activity_direction.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1/app/src/main/res/layout/activity_geolocation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Question1/app/src/main/res/layout/activity_geolocation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1/app/src/main/res/layout/activity_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Question1/app/src/main/res/layout/activity_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1/app/src/main/res/layout/activity_proximity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Question1/app/src/main/res/layout/activity_proximity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1/app/src/main/res/layout/activity_sensor_availability.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Question1/app/src/main/res/layout/activity_sensor_availability.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1/app/src/main/res/layout/activity_shake_device.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Question1/app/src/main/res/layout/activity_shake_device.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Question1/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Question1/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +41,44 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ListeDeCapteurs" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ListeDeCapteurs" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ListeDeCapteurs" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ListeDeCapteurs" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,7 +101,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/tony/M1/secondSemester/mobil/tp/TP2-DevMob/Question1"
+    "last_opened_file_path": "/home/satea/Desktop/Android/TP1-DevMob/Agenda"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
