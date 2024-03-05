@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.31)  5 MAR 2024 14:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.31)  5 MAR 2024 15:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -439,9 +439,9 @@ Package pdftex.def Info: rapport/img//makima.jpg  used on input line 46.
 \openout3 = `rapport.toc'.
 
  [2]
-Overfull \hbox (59.29956pt too wide) in paragraph at lines 61--61
-[]\T1/cmr/m/n/10 Faire une vi-déo, rap-port+read.md(instruction) screen-chot ré
--sul-tats + code. +bo-nus bien fait,beau,tests,Kotlin,latex 
+Overfull \hbox (3.42432pt too wide) in paragraph at lines 61--61
+[]\T1/cmr/m/n/10 Faire une vi-déo, le rap-port avec des screen-chot des ré-sul-
+tats et du code et en-fin un read.md(instruction).
  []
 
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 7
@@ -456,10 +456,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [3]
 (rapport//rapport.aux) ) 
 Here is how much of TeX's memory you used:
- 10794 strings out of 479551
- 172528 string characters out of 5876172
- 479492 words of memory out of 5000000
- 28638 multiletter control sequences out of 15000+600000
+ 10799 strings out of 479551
+ 172573 string characters out of 5876172
+ 483492 words of memory out of 5000000
+ 28639 multiletter control sequences out of 15000+600000
  477606 words of font info for 45 fonts, out of 8000000 for 9000
  395 hyphenation exceptions out of 8191
  60i,6n,63p,590b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -471,10 +471,10 @@ appen/ec/ecrm1000.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
 appen/ec/ecti1200.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
 appen/ec/ecrm1200.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
 appen/ec/ecrm1728.600pk>
-Output written on rapport//rapport.pdf (3 pages, 1112940 bytes).
+Output written on rapport//rapport.pdf (3 pages, 1115948 bytes).
 PDF statistics:
- 304 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 320 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
+ 21 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

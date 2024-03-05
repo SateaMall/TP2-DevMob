@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="592f6131-713e-46f3-8eab-ca92a1262f8e" name="Changes" comment="" />
+    <list default="true" id="592f6131-713e-46f3-8eab-ca92a1262f8e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rapport/rapport.aux" beforeDir="false" afterPath="$PROJECT_DIR$/rapport/rapport.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rapport/rapport.log" beforeDir="false" afterPath="$PROJECT_DIR$/rapport/rapport.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rapport/rapport.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/rapport/rapport.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rapport/rapport.tex" beforeDir="false" afterPath="$PROJECT_DIR$/rapport/rapport.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rapport/rapport.toc" beforeDir="false" afterPath="$PROJECT_DIR$/rapport/rapport.toc" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +44,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/satea/Desktop/Android/TP2-DevMob/Question1"
+    "last_opened_file_path": "/home/tony/M1/secondSemester/mobil/tp/TP2-DevMob/Question1"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
