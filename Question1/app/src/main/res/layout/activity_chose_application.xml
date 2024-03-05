@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="50dp">
+
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="Les exercises de TP2"
+        android:textSize='25dp'
+        />
+
+    <Button
+
+        android:id="@+id/buttonListSensors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Liste de capteurs" />
+
+    <Button
+        android:id="@+id/buttonSensorAvailability"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Détection de présence/absence de capteurs" />
+
+    <Button
+        android:id="@+id/buttonAccelerometer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accéléromètre" />
+
+    <Button
+        android:id="@+id/buttonDirection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Direction" />
+
+    <Button
+        android:id="@+id/buttonShakeDevice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Secouer un appareil" />
+
+    <Button
+        android:id="@+id/buttonProximity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proximité" />
+
+    <Button
+        android:id="@+id/buttonGeolocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Géolocalisation" />
+
+</LinearLayout>
