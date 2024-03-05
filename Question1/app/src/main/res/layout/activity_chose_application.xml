@@ -8,6 +8,7 @@
 
 
     <TextView
+        android:textColor="@color/black"
         android:textStyle="bold"
         android:id="@+id/textView"
         android:layout_width="match_parent"
@@ -19,7 +20,6 @@
         />
 
     <Button
-
         android:id="@+id/buttonListSensors"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

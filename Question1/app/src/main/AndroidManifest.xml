@@ -13,6 +13,24 @@
         android:theme="@style/Theme.ListeDeCapteurs"
         tools:targetApi="31">
         <activity
+            android:name=".Geolocation"
+            android:exported="false" />
+        <activity
+            android:name=".Proximity"
+            android:exported="false" />
+        <activity
+            android:name=".ShakeDevice"
+            android:exported="false" />
+        <activity
+            android:name=".Direction"
+            android:exported="false" />
+        <activity
+            android:name=".Accelerometer"
+            android:exported="false" />
+        <activity
+            android:name=".SensorAvailability"
+            android:exported="false" />
+        <activity
             android:name=".ChoseApplication"
             android:exported="true">
             <intent-filter>
