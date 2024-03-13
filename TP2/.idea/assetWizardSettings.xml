@@ -103,7 +103,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="$PROJECT_DIR$/../../../far_image.jpg" />
+                                                <entry key="imagePath" value="$PROJECT_DIR$/../../../background.webp" />
                                                 <entry key="scalingPercent" value="113" />
                                               </map>
                                             </option>
@@ -143,8 +143,12 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="4b2d2a" />
-                                      <entry key="outputName" value="far_image" />
+                                      <entry key="backgroundColor" value="d4e4e3" />
+                                      <entry key="generatePlayStoreIcon" value="false" />
+                                      <entry key="generateRoundIcon" value="false" />
+                                      <entry key="generateWebpIcons" value="false" />
+                                      <entry key="legacyIconShape" value="VRECT" />
+                                      <entry key="outputName" value="backgrond" />
                                     </map>
                                   </option>
                                 </PersistentState>
