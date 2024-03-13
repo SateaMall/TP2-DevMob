@@ -10,7 +10,7 @@
         android:id="@+id/my_button"
         android:contentDescription="Home"
         app:srcCompat="@drawable/sharp_arrow_circle_left_24"
-        app:maxImageSize="80dp"
+        app:maxImageSize="67dp"
         app:tint="#FFFFFF"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

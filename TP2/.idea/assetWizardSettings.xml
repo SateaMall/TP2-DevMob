@@ -103,9 +103,8 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="$PROJECT_DIR$/app/src/main/res/drawable/_86a508f_75e8_4320_9c4f_2391508e44c0.xml" />
+                                                <entry key="imagePath" value="$PROJECT_DIR$/../../../last.webp" />
                                                 <entry key="scalingPercent" value="110" />
-                                                <entry key="trimmed" value="true" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -144,8 +143,7 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="ffffff" />
-                                      <entry key="foregroundAssetType" value="TEXT" />
+                                      <entry key="backgroundColor" value="001220" />
                                     </map>
                                   </option>
                                 </PersistentState>
