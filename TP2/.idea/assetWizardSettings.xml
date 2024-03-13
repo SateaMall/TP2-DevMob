@@ -103,8 +103,8 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="$PROJECT_DIR$/../../../last.webp" />
-                                                <entry key="scalingPercent" value="110" />
+                                                <entry key="imagePath" value="$PROJECT_DIR$/../../../far_image.jpg" />
+                                                <entry key="scalingPercent" value="113" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -143,7 +143,8 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="001220" />
+                                      <entry key="backgroundColor" value="4b2d2a" />
+                                      <entry key="outputName" value="far_image" />
                                     </map>
                                   </option>
                                 </PersistentState>
