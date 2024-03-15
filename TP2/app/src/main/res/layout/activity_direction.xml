@@ -29,6 +29,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:maxImageSize="67dp"
         app:srcCompat="@drawable/sharp_arrow_circle_left_24"
-        app:tint="#FFFFFF" />
+        app:tint="#EEFFFFFF"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

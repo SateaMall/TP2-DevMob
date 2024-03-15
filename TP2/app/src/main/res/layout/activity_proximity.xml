@@ -23,7 +23,7 @@
         android:contentDescription="Home"
         app:srcCompat="@drawable/sharp_arrow_circle_left_24"
         app:maxImageSize="67dp"
-        app:tint="#FFFFFF"
+        app:tint="#EEFFFFFF"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
