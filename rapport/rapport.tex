@@ -51,9 +51,9 @@
 
     \newpage
     \begin{multicols}{2}
-        [
-            Faire une vidéo, le rapport avec des screenshot des résultats et du code et enfin un read.md(instruction). En plus, pour le bonus, faire une belle application, des tests unitaires, utiliser Kotlin, faire le rapport en Latex.
-        ]
+        % [
+        %     Faire une vidéo, le rapport avec des screenshot des résultats et du code et enfin un read.md(instruction). En plus, pour le bonus, faire une belle application, des tests unitaires, utiliser Kotlin, faire le rapport en Latex.
+        % ]
         \section*{Introduction}
         \addcontentsline{toc}{section}{Introduction}
         \paragraph{}
@@ -61,7 +61,7 @@
             
             Nous allons voir comment manipuler les différents types de capteur comme le GPS, la boussole, le gyroscope, etc ...
         \paragraph{}
-            Pour réaliser ce tp, nous choisisons de créer une unique application avec un écran d'acceuil \emph{(ChoseApplication.java)} qui mène aux différentes activités correspondant à chaque exercice.
+            Pour réaliser ce tp, nous choisissons de créer une unique application avec un écran d'acceuil \emph{(ChoseApplication.java)} qui mène aux différentes activités correspondant à chaque exercice.
             
             \includegraphics[height=.8\textwidth]{screenshot}
         \paragraph{}
@@ -100,6 +100,8 @@
             \paragraph{}
                 Nous commençons par récupérer le sensorManager et le capteur accéléromètre. Afin de récupérer les données du capteur, il nous suffit de s'enregistrer (avec \textbf{registerListener()})auprès du service comme écouteurs d'événements et implémenter les méthodes de callback \textbf{onSensorChanged() et onAccuracyChanged()}.
 
+                Nous choisissons d'utiliser \textbf{SensorManager.SENSOR\_DELAY\_UI} pour économiser de la batterie.
+
                 Quand le capteur détecte un changement, la méthode \textbf{onSensorChanged()} est appelé. Si une accélération suffisament grande est détecté, on change la couleur du fond d'écran en rouge ou noir avec \textbf{view.setBackgroundColor()}.
                 \includegraphics[width=.49\textwidth]{accelerometre/register}
                 \includegraphics[width=.49\textwidth]{accelerometre/onSensorChanged}
@@ -115,7 +117,15 @@
             \paragraph{}
                 Cette activité \emph{(ShakeDevice)} nous permet de faire basculer le flash entre allumé/éteint quand on second le smartphone.
             \paragraph{}
-                Nous procédons comme dans les exercices précédent. On récupère le sensorManager. On récupère le capteur. On s'enregistre auprès de lui. On implémente les méthodes de callback. Si le smartphone est suffisament secoué, on fait basculer l'état du flash comme sur la capture d'écran suivante :
+                Nous procédons comme dans les exercices précédent. On récupère le sensorManager. On récupère les capteurs (\emph{l'accéléromètre et la caméra}). On s'enregistre auprès de lui. Il faut remarquer qu'on doit d'abord récupérer le manger de caméra et utiliser un try catch car il est possible qu'on ait plusieurs ou 0 caméra.
+
+                Nous avons choisit d'utiliser \textbf{SensorManager.SENSOR\_DELAY\_UI} pour pouvoir détecter les mouvments de manière plus fine.
+                \includegraphics[width=.49\textwidth]{shake/register}
+            \paragraph{}
+                On implémente les méthodes de callback. On remarquera aussi l'utilisation de \textbf{System.currentTimeMillis()} pour empêcherque le flash ne s'allume et s'éteingne au cours du même mouvement.
+                \includegraphics[width=.49\textwidth]{shake/onSensorChanged}
+            \paragraph{}
+                Si le smartphone est suffisament secoué, on fait basculer l'état du flash comme sur la capture d'écran suivante :
                 \includegraphics[width=.49\textwidth]{shake/toggle}
         \section{Proximité \emph{(Proximity)}}
             \paragraph{}
@@ -124,6 +134,8 @@
                 On récupère le sensorManager, le capteur et on s'enregistre auprès de lui encore une fois. On implémente les méthodes de callback. On déclare une \textbf{<ImageView>} dans le layout \emph{(activity\_proximity.xml)} qu'on mainupulera ensuite en java avec la mathode \textbf{setImageRessource()}.
                 
                 \noindent\includegraphics[width=.49\textwidth]{proximity/onSensorChanged}
+                \noindent\includegraphics[height=.52\textwidth]{proximity/far}
+                \noindent\includegraphics[height=.52\textwidth]{proximity/close}
         \section{Géolocalisation \emph{(Geolocation)}}
             \paragraph{}
                 Dans de nombreuse application, il est souhaitable de connaitre la position de l'utilisateur. Pour ce faire, nous allons manipuler le gps.
@@ -131,12 +143,19 @@
             \subsection{Icone}
                 \paragraph{}
                     Nous avons choisit de modifier l'îcone de notre application. Nous allons maintenant expliqué comment nous cela a été fait.
+
+                \paragraph{}
+                    Dans Android Studio, faire un click droit sur le dossier app. Aller dans New > Image Asset.
+                    \noindent\includegraphics[width=.49\textwidth]{icone/imageAsset}
+                    \includegraphics[width=.49\textwidth]{icone/res}
+                    \includegraphics[height=.7\textwidth]{icone/drawer}
             \subsection{Retour}
                 \paragraph{}
                     Nous avons placer un boutton de retour à l'écran d'acceuil.
                     
                 \paragraph{}
-                    Dans le layout, nous ajoutons un boutton flottant (\emph{FloatingActionButton}) dans le coin inférieur gauche de la vue
+                    Dans le layout, nous ajoutons un boutton flottant (\emph{FloatingActionButton}) dans le coin inférieur gauche de la vue.
+                    Et à l'aide des connaissances du 1er tp, on redéfinit la méthode \textbf{onClick()}. On comment l'activité correspondant à l'acceuil avec un \textbf{Intent} et la méthode textbf{startActivity()}.
 
                     \noindent\includegraphics[width=.49\textwidth]{button/boutton}
                     \includegraphics[width=.49\textwidth]{button/onClick}

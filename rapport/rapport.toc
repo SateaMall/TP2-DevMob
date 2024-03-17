@@ -21,13 +21,16 @@
 \contentsline {section}{\numberline {5}Secouer un appareil \emph {(ShakeDevice)}}{5}{section.5}%
 \contentsline {paragraph}{}{5}{section*.17}%
 \contentsline {paragraph}{}{5}{section*.18}%
-\contentsline {section}{\numberline {6}Proximité \emph {(Proximity)}}{5}{section.6}%
 \contentsline {paragraph}{}{5}{section*.19}%
-\contentsline {section}{\numberline {7}Géolocalisation \emph {(Geolocation)}}{5}{section.7}%
 \contentsline {paragraph}{}{5}{section*.20}%
-\contentsline {section}{\numberline {8}Extra}{5}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Icone}{5}{subsection.8.1}%
-\contentsline {paragraph}{}{5}{section*.21}%
-\contentsline {subsection}{\numberline {8.2}Retour}{6}{subsection.8.2}%
+\contentsline {section}{\numberline {6}Proximité \emph {(Proximity)}}{6}{section.6}%
+\contentsline {paragraph}{}{6}{section*.21}%
+\contentsline {section}{\numberline {7}Géolocalisation \emph {(Geolocation)}}{6}{section.7}%
 \contentsline {paragraph}{}{6}{section*.22}%
+\contentsline {section}{\numberline {8}Extra}{6}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Icone}{6}{subsection.8.1}%
 \contentsline {paragraph}{}{6}{section*.23}%
+\contentsline {paragraph}{}{6}{section*.24}%
+\contentsline {subsection}{\numberline {8.2}Retour}{7}{subsection.8.2}%
+\contentsline {paragraph}{}{7}{section*.25}%
+\contentsline {paragraph}{}{7}{section*.26}%
