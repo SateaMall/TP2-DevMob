@@ -30,12 +30,8 @@
 %\pagestyle{headings}        % Pour mettre des entêtes avec les titres
                               % des sections en haut de page
 
- \title{  TP2 : Les capteurs\\         % Les paramètres du titre : titre, auteur, date
-  Programmation mobile}
-\author{Mohamad Satea Almallouhi - Tony Nguyen\\
-  \emph{M1 Génie Logiciel}\\
-  Faculté des Sciences\\
-Université de Montpellier.}
+\title{  TP2 : Les capteurs\\Programmation mobile}
+\author{Mohamad Satea Almallouhi - Tony Nguyen\\\emph{M1 Génie Logiciel}\\Faculté des Sciences\\Université de Montpellier.}
 \date{5 mars 2024}
 
 
@@ -43,12 +39,12 @@ Université de Montpellier.}
 \begin{document}
     \maketitle
     \begin{center}
-    \includegraphics[width=\textwidth]{makima}
+    \includegraphics[height=.95\textwidth]{makima_standing}
     \end{center}
 
-    % \begin{abstract}     % Résumé du travail
-    %   \emph{Description très succinte du problème et des différentes étapes de réalisation}
-    % \end{abstract}
+    \begin{abstract}     % Résumé du travail
+      \emph{Nous avons réalisé une application Android en Java afin de démontrer l'utilisation des capteurs intégré.}
+    \end{abstract}
     \newpage
     %\dominitoc  % initializer les minitoc
     \tableofcontents
@@ -56,7 +52,7 @@ Université de Montpellier.}
     \newpage
     \begin{multicols}{2}
         [
-            Faire une vidéo, le rapport avec des screenchot des résultats et du code et enfin un read.md(instruction). En plus, pour le bonus, faire une belle application, des tests unitaires, utiliser Kotlin, faire le rapport en Latex.
+            Faire une vidéo, le rapport avec des screenshot des résultats et du code et enfin un read.md(instruction). En plus, pour le bonus, faire une belle application, des tests unitaires, utiliser Kotlin, faire le rapport en Latex.
         ]
         \section*{Introduction}
         \addcontentsline{toc}{section}{Introduction}
@@ -65,25 +61,85 @@ Université de Montpellier.}
             
             Nous allons voir comment manipuler les différents types de capteur comme le GPS, la boussole, le gyroscope, etc ...
         \paragraph{}
+            Pour réaliser ce tp, nous choisisons de créer une unique application avec un écran d'acceuil \emph{(ChoseApplication.java)} qui mène aux différentes activités correspondant à chaque exercice.
+            
+            \includegraphics[height=.8\textwidth]{screenshot}
+        \paragraph{}
             Les sections du rapport suit les exercices.
         \section*{Démonstration}
         \addcontentsline{toc}{section}{Démonstration}
             \paragraph{}
             En ligne sur Youtube, à l'adresse URL \url{https://youtu.be/nQUkpSUjJlY} une démonstration vidéo de notre travail.
-        \section{Liste des capteurs}
-            Lorsque l'on déploie une application sur un smarphone, nous ne pouvons pas être sûr des capteurs que l'on aura a notre disposition. Dans cette section, nous allons regarder tout les capteurs disponible sur un appareil donné.
-        \section{Détection de la disponibilité des capteurs}  
-        \section{Accéléromètre}
+        \section{Liste des capteurs \emph{(Index)}}
+            \paragraph{}
+                Lorsque l'on déploie une application sur un smarphone, nous ne pouvons pas être sûr des capteurs que l'on aura a notre disposition. Dans cette section, nous allons regarder tout les capteurs disponible sur un appareil donné.
+            \paragraph{}
+                Tout d'abord, il est nécessaire d'accèder au sensorManager par lequel les informations ainsi que l'accès aux capteurs passent.
+                \includegraphics[width=.49\textwidth]{listeCapteur/sensorManager}
+            \paragraph{}
+                Ensuite, une fois qu'on a le sensorManager, nous pouvons faire appel à la fonction \textbf{getSensorList(Sensor.TYPE\_ALL)} qui nous renvoie un tableau de tous les capteurs.
+                
+                Pour accéder individuellement aux informations de chaque capteur représenté par un objet de type Sensor, nous invoquons les méthodes \textbf{getName(), getType() et getVersion()}.
+                \noindent\includegraphics[width=.49\textwidth]{listeCapteur/listSensor}
+            \paragraph{}
+                Enfin, pour afficher à l'écran le résultat, nous utilisons une Vue de type ListView que nous avons au préalable déclarer dans le layout.
+                \noindent\includegraphics[width=.49\textwidth]{listeCapteur/layout}
+                \noindent\includegraphics[width=.49\textwidth]{listeCapteur/screenshotSmall}
+        \section{Détection de la disponibilité des capteurs \emph{(SensorAvailibility)}}
+            \noindent\includegraphics[height=.52\textwidth]{dispo/screenshotAvailable}
+            \noindent\includegraphics[height=.52\textwidth]{dispo/screenshotUnavailable}
+            \paragraph{}
+                Dans ce nouvel exercice, nous allons affiché la disponibilité \emph{(en bas de l'écran)} de un capteur en particulier.
+            \paragraph{}
+                Pour cela, nous réutilisons un ListView où chaque élément correspondra à un type de capteur. Puis nous redéfinissons la méthode \textbf{onItemClick()} pour modifier le comporter "cliquer" sur chaque item de la vue. La fonction nous donne en argument quelle item a été cliquer dessus sous forme d'un numéro d'index. On récupère le capteur qui correspond à cet index puis regarde si ce capteur est dispobile ou pas. C'est la fonction \textbf{getDefaultSensor()} qui nous inque qu'un capteur est indisponible quand il renvoie null.
+                \includegraphics[width=.49\textwidth]{dispo/click}
+                \includegraphics[width=.49\textwidth]{dispo/check}
+        \section{Accéléromètre \emph{(Accelerometer)}}
             \paragraph{}
                 Nous avons fait une petite application qui change la couleur en fond en fonction de l'accélération du téléphone.
-        \section{Direction}
-        \section{Secouer un appareil}
-        \section{Proximité}
-        \section{Géolocalisation}
+            \paragraph{}
+                Nous commençons par récupérer le sensorManager et le capteur accéléromètre. Afin de récupérer les données du capteur, il nous suffit de s'enregistrer (avec \textbf{registerListener()})auprès du service comme écouteurs d'événements et implémenter les méthodes de callback \textbf{onSensorChanged() et onAccuracyChanged()}.
+
+                Quand le capteur détecte un changement, la méthode \textbf{onSensorChanged()} est appelé. Si une accélération suffisament grande est détecté, on change la couleur du fond d'écran en rouge ou noir avec \textbf{view.setBackgroundColor()}.
+                \includegraphics[width=.49\textwidth]{accelerometre/register}
+                \includegraphics[width=.49\textwidth]{accelerometre/onSensorChanged}
+        \section{Direction \emph{(Direction)}}
+            \paragraph{}
+                De façon très similaire à la section précédente, nous récupérons les capteurs qui nous intéresse et nous les écoutons.
+
+                De même on implémente la méthode onSensorChanged afin d'implémenter le comportement que l'on souhaite. Lors d'un mouvment nous affichons dans quelle direction le smartphone se déplace. 
+                
+                Nous avons déclarer une balise TextView dans le layout correspondant à cette activité. On le récupère dans le code avec \textbf{directionTextView = findViewById(R.id.directionTextView);} puis on change le texte qu'il affiche avec du code : \textbf{directionTextView.setText("Left");}
+                \includegraphics[width=.49\textwidth]{direction/screenshot}
+        \section{Secouer un appareil \emph{(ShakeDevice)}}
+            \paragraph{}
+                Cette activité \emph{(ShakeDevice)} nous permet de faire basculer le flash entre allumé/éteint quand on second le smartphone.
+            \paragraph{}
+                Nous procédons comme dans les exercices précédent. On récupère le sensorManager. On récupère le capteur. On s'enregistre auprès de lui. On implémente les méthodes de callback. Si le smartphone est suffisament secoué, on fait basculer l'état du flash comme sur la capture d'écran suivante :
+                \includegraphics[width=.49\textwidth]{shake/toggle}
+        \section{Proximité \emph{(Proximity)}}
+            \paragraph{}
+                Nous affichons une image indiquant si l'objet est proche ou loin.
+
+                On récupère le sensorManager, le capteur et on s'enregistre auprès de lui encore une fois. On implémente les méthodes de callback. On déclare une \textbf{<ImageView>} dans le layout \emph{(activity\_proximity.xml)} qu'on mainupulera ensuite en java avec la mathode \textbf{setImageRessource()}.
+                
+                \noindent\includegraphics[width=.49\textwidth]{proximity/onSensorChanged}
+        \section{Géolocalisation \emph{(Geolocation)}}
             \paragraph{}
                 Dans de nombreuse application, il est souhaitable de connaitre la position de l'utilisateur. Pour ce faire, nous allons manipuler le gps.
-        \section{Icone}
-            \paragraph{}
-                Nous avons choisit de modifier l'îcone de notre application. Nous allons maintenant expliqué comment nous cela a été fait.
+        \section{Extra}
+            \subsection{Icone}
+                \paragraph{}
+                    Nous avons choisit de modifier l'îcone de notre application. Nous allons maintenant expliqué comment nous cela a été fait.
+            \subsection{Retour}
+                \paragraph{}
+                    Nous avons placer un boutton de retour à l'écran d'acceuil.
+                    
+                \paragraph{}
+                    Dans le layout, nous ajoutons un boutton flottant (\emph{FloatingActionButton}) dans le coin inférieur gauche de la vue
+
+                    \noindent\includegraphics[width=.49\textwidth]{button/boutton}
+                    \includegraphics[width=.49\textwidth]{button/onClick}
+
     \end{multicols}
 \end{document}

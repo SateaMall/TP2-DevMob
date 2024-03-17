@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.31)  5 MAR 2024 15:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.31)  17 MAR 2024 15:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -351,26 +351,26 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 (rapport//rapport.aux)
 \openout1 = `rapport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Info: Redefining \degres on input line 43.
-LaTeX Info: Redefining \up on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Info: Redefining \degres on input line 39.
+LaTeX Info: Redefining \up on input line 39.
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
@@ -380,7 +380,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
 )
-Package hyperref Info: Link coloring ON on input line 43.
+Package hyperref Info: Link coloring ON on input line 39.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -393,9 +393,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count308
 )
-LaTeX Info: Redefining \ref on input line 43.
-LaTeX Info: Redefining \pageref on input line 43.
-LaTeX Info: Redefining \nameref on input line 43.
+LaTeX Info: Redefining \ref on input line 39.
+LaTeX Info: Redefining \pageref on input line 39.
+LaTeX Info: Redefining \nameref on input line 39.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -420,61 +420,263 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 45.
+(Font)              <12> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 45.
+(Font)              <8> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 45.
-<rapport/img//makima.jpg, id=4, 1071.25218pt x 602.25pt>
-File: rapport/img//makima.jpg Graphic file (type jpg)
-<use rapport/img//makima.jpg>
-Package pdftex.def Info: rapport/img//makima.jpg  used on input line 46.
-(pdftex.def)             Requested size: 452.9679pt x 254.66171pt.
+(Font)              <6> on input line 41.
+<rapport/img//makima_standing.jpg, id=4, 613.29124pt x 1022.82124pt>
+File: rapport/img//makima_standing.jpg Graphic file (type jpg)
+<use rapport/img//makima_standing.jpg>
+Package pdftex.def Info: rapport/img//makima_standing.jpg  used on input line 4
+2.
+(pdftex.def)             Requested size: 258.02039pt x 430.31812pt.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./rapport/img//makima.jpg>
-] (rapport//rapport.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./rapport/img//makima_stan
+ding.jpg>] (rapport//rapport.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 29.
+)
 \tf@toc=\write3
 \openout3 = `rapport.toc'.
 
  [2]
-Overfull \hbox (3.42432pt too wide) in paragraph at lines 61--61
-[]\T1/cmr/m/n/10 Faire une vi-déo, le rap-port avec des screen-chot des ré-sul-
+Overfull \hbox (3.20215pt too wide) in paragraph at lines 57--57
+[]\T1/cmr/m/n/10 Faire une vi-déo, le rap-port avec des screen-shot des ré-sul-
 tats et du code et en-fin un read.md(instruction).
  []
 
+<rapport/img//screenshot.png, id=48, 1084.05pt x 2348.775pt>
+File: rapport/img//screenshot.png Graphic file (type png)
+<use rapport/img//screenshot.png>
+Package pdftex.def Info: rapport/img//screenshot.png  used on input line 66.
+(pdftex.def)             Requested size: 167.24857pt x 362.37569pt.
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 7
 2.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 72.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 72.
- [3]
+<rapport/img//listeCapteur/sensorManager.png, id=51, 606.265pt x 247.92625pt>
+File: rapport/img//listeCapteur/sensorManager.png Graphic file (type png)
+<use rapport/img//listeCapteur/sensorManager.png>
+Package pdftex.def Info: rapport/img//listeCapteur/sensorManager.png  used on i
+nput line 78.
+(pdftex.def)             Requested size: 221.95676pt x 90.76659pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
+ [][] \T1/cmr/m/n/10 Tout d'abord, il est né-ces-saire d'ac-cè-der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
+\T1/cmr/m/n/10 au sen-sor-Ma-na-ger par le-quel les in-for-ma-
+ []
+
+
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 77--79
+[] 
+ []
+
+<rapport/img//listeCapteur/listSensor.png, id=52, 488.82625pt x 316.18124pt>
+File: rapport/img//listeCapteur/listSensor.png Graphic file (type png)
+<use rapport/img//listeCapteur/listSensor.png>
+Package pdftex.def Info: rapport/img//listeCapteur/listSensor.png  used on inpu
+t line 83.
+(pdftex.def)             Requested size: 221.95676pt x 143.56839pt.
+
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 82--84
+[] 
+ []
+
+<rapport/img//listeCapteur/layout.png, id=53, 550.055pt x 277.035pt>
+File: rapport/img//listeCapteur/layout.png Graphic file (type png)
+<use rapport/img//listeCapteur/layout.png>
+Package pdftex.def Info: rapport/img//listeCapteur/layout.png  used on input li
+ne 86.
+(pdftex.def)             Requested size: 221.95676pt x 111.78851pt.
+<rapport/img//listeCapteur/screenshotSmall.png, id=54, 544.0325pt x 510.90875pt
+>
+File: rapport/img//listeCapteur/screenshotSmall.png Graphic file (type png)
+<use rapport/img//listeCapteur/screenshotSmall.png>
+Package pdftex.def Info: rapport/img//listeCapteur/screenshotSmall.png  used on
+ input line 87.
+(pdftex.def)             Requested size: 221.95676pt x 208.44489pt.
+
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 85--88
+[]
+ []
+
+
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 85--88
+[] 
+ []
+
+[3 <./rapport/img//screenshot.png> <./rapport/img//listeCapteur/sensorManager.p
+ng> <./rapport/img//listeCapteur/listSensor.png>]
+<rapport/img//dispo/screenshotAvailable.png, id=74, 1084.05pt x 2348.775pt>
+File: rapport/img//dispo/screenshotAvailable.png Graphic file (type png)
+<use rapport/img//dispo/screenshotAvailable.png>
+Package pdftex.def Info: rapport/img//dispo/screenshotAvailable.png  used on in
+put line 89.
+(pdftex.def)             Requested size: 108.70909pt x 235.54523pt.
+<rapport/img//dispo/screenshotUnavailable.png, id=75, 1084.05pt x 2348.775pt>
+File: rapport/img//dispo/screenshotUnavailable.png Graphic file (type png)
+<use rapport/img//dispo/screenshotUnavailable.png>
+Package pdftex.def Info: rapport/img//dispo/screenshotUnavailable.png  used on 
+input line 90.
+(pdftex.def)             Requested size: 108.70909pt x 235.54523pt.
+<rapport/img//dispo/click.png, id=76, 712.6625pt x 189.70876pt>
+File: rapport/img//dispo/click.png Graphic file (type png)
+<use rapport/img//dispo/click.png>
+Package pdftex.def Info: rapport/img//dispo/click.png  used on input line 95.
+(pdftex.def)             Requested size: 221.95676pt x 59.08409pt.
+<rapport/img//dispo/check.png, id=77, 719.68875pt x 210.7875pt>
+File: rapport/img//dispo/check.png Graphic file (type png)
+<use rapport/img//dispo/check.png>
+Package pdftex.def Info: rapport/img//dispo/check.png  used on input line 96.
+(pdftex.def)             Requested size: 221.95676pt x 65.00894pt.
+
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 94--97
+[]
+ []
+
+
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 94--97
+[] 
+ []
+
+<rapport/img//accelerometre/register.png, id=78, 713.66624pt x 103.38625pt>
+File: rapport/img//accelerometre/register.png Graphic file (type png)
+<use rapport/img//accelerometre/register.png>
+Package pdftex.def Info: rapport/img//accelerometre/register.png  used on input
+ line 104.
+(pdftex.def)             Requested size: 221.95676pt x 32.15352pt.
+<rapport/img//accelerometre/onSensorChanged.png, id=79, 763.85374pt x 606.265pt
+>
+File: rapport/img//accelerometre/onSensorChanged.png Graphic file (type png)
+<use rapport/img//accelerometre/onSensorChanged.png>
+Package pdftex.def Info: rapport/img//accelerometre/onSensorChanged.png  used o
+n input line 105.
+(pdftex.def)             Requested size: 221.95676pt x 176.16388pt.
+
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 103--106
+[]
+ []
+
+
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 103--106
+[] 
+ []
+
+[4 <./rapport/img//listeCapteur/layout.png> <./rapport/img//listeCapteur/screen
+shotSmall.png> <./rapport/img//dispo/screenshotAvailable.png> <./rapport/img//d
+ispo/screenshotUnavailable.png> <./rapport/img//dispo/click.png> <./rapport/img
+//dispo/check.png> <./rapport/img//accelerometre/register.png>]
+<rapport/img//direction/screenshot.png, id=95, 180.675pt x 176.66pt>
+File: rapport/img//direction/screenshot.png Graphic file (type png)
+<use rapport/img//direction/screenshot.png>
+Package pdftex.def Info: rapport/img//direction/screenshot.png  used on input l
+ine 113.
+(pdftex.def)             Requested size: 221.95676pt x 217.02632pt.
+
+Underfull \hbox (badness 6348) in paragraph at lines 112--114
+\T1/cmr/bx/n/10 = find-View-ById(R.id.directionTextView) ;
+ []
+
+
+Underfull \hbox (badness 6608) in paragraph at lines 112--114
+\T1/cmr/m/n/10 code : \T1/cmr/bx/n/10 di-rec-tion-Text-View.setText("Left") ;
+ []
+
+
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 112--114
+[] 
+ []
+
+<rapport/img//shake/toggle.png, id=96, 504.88625pt x 178.6675pt>
+File: rapport/img//shake/toggle.png Graphic file (type png)
+<use rapport/img//shake/toggle.png>
+Package pdftex.def Info: rapport/img//shake/toggle.png  used on input line 119.
+
+(pdftex.def)             Requested size: 221.95676pt x 78.54578pt.
+
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 118--120
+[] 
+ []
+
+<rapport/img//proximity/onSensorChanged.png, id=97, 791.95876pt x 278.03876pt>
+File: rapport/img//proximity/onSensorChanged.png Graphic file (type png)
+<use rapport/img//proximity/onSensorChanged.png>
+Package pdftex.def Info: rapport/img//proximity/onSensorChanged.png  used on in
+put line 126.
+(pdftex.def)             Requested size: 221.95676pt x 77.92244pt.
+
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 126--127
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+[]\T1/cmr/bx/n/14.4 Géolocalisation \T1/cmr/bx/it/14.4 (Geo-lo-ca-
+ []
+
+[5 <./rapport/img//accelerometre/onSensorChanged.png> <./rapport/img//direction
+/screenshot.png> <./rapport/img//shake/toggle.png> <./rapport/img//proximity/on
+SensorChanged.png>]
+<rapport/img//button/boutton.png, id=113, 576.1525pt x 316.18124pt>
+File: rapport/img//button/boutton.png Graphic file (type png)
+<use rapport/img//button/boutton.png>
+Package pdftex.def Info: rapport/img//button/boutton.png  used on input line 14
+1.
+(pdftex.def)             Requested size: 221.95676pt x 121.80493pt.
+<rapport/img//button/onClick.png, id=114, 746.79pt x 235.88126pt>
+File: rapport/img//button/onClick.png Graphic file (type png)
+<use rapport/img//button/onClick.png>
+Package pdftex.def Info: rapport/img//button/onClick.png  used on input line 14
+2.
+(pdftex.def)             Requested size: 221.95676pt x 70.10625pt.
+
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 141--143
+[]
+ []
+
+
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 141--143
+[] 
+ []
+
+[6 <./rapport/img//button/boutton.png> <./rapport/img//button/onClick.png>]
 (rapport//rapport.aux) ) 
 Here is how much of TeX's memory you used:
- 10799 strings out of 479551
- 172573 string characters out of 5876172
- 483492 words of memory out of 5000000
- 28639 multiletter control sequences out of 15000+600000
- 477606 words of font info for 45 fonts, out of 8000000 for 9000
+ 11047 strings out of 479551
+ 180043 string characters out of 5876172
+ 483488 words of memory out of 5000000
+ 28828 multiletter control sequences out of 15000+600000
+ 482697 words of font info for 52 fonts, out of 8000000 for 9000
  395 hyphenation exceptions out of 8191
- 60i,6n,63p,590b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,6n,63p,818b,493s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecbx1200.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecbi1440.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
 appen/ec/ectt1000.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecti1000.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecbi1000.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
 appen/ec/ecbx1000.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
 appen/ec/ecbx1440.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
 appen/ec/ecrm1000.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecti0900.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecbx0900.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
 appen/ec/ecti1200.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
 appen/ec/ecrm1200.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
 appen/ec/ecrm1728.600pk>
-Output written on rapport//rapport.pdf (3 pages, 1115948 bytes).
+Output written on rapport//rapport.pdf (6 pages, 1675892 bytes).
 PDF statistics:
- 320 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
- 21 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 595 PDF objects out of 1000 (max. 8388607)
+ 170 compressed objects within 2 object streams
+ 40 named destinations out of 1000 (max. 500000)
+ 182 words of extra memory for PDF output out of 10000 (max. 10000000)
 

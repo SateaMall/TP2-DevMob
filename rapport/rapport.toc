@@ -2,16 +2,32 @@
 \contentsline {section}{Introduction}{3}{section*.2}%
 \contentsline {paragraph}{}{3}{section*.3}%
 \contentsline {paragraph}{}{3}{section*.4}%
-\contentsline {section}{Démonstration}{3}{section*.5}%
-\contentsline {paragraph}{}{3}{section*.6}%
-\contentsline {section}{\numberline {1}Liste des capteurs}{3}{section.1}%
-\contentsline {section}{\numberline {2}Détection de la disponibilité des capteurs}{3}{section.2}%
-\contentsline {section}{\numberline {3}Accéléromètre}{3}{section.3}%
+\contentsline {paragraph}{}{3}{section*.5}%
+\contentsline {section}{Démonstration}{3}{section*.6}%
 \contentsline {paragraph}{}{3}{section*.7}%
-\contentsline {section}{\numberline {4}Direction}{3}{section.4}%
-\contentsline {section}{\numberline {5}Secouer un appareil}{3}{section.5}%
-\contentsline {section}{\numberline {6}Proximité}{3}{section.6}%
-\contentsline {section}{\numberline {7}Géolocalisation}{3}{section.7}%
+\contentsline {section}{\numberline {1}Liste des capteurs \emph {(Index)}}{3}{section.1}%
 \contentsline {paragraph}{}{3}{section*.8}%
-\contentsline {section}{\numberline {8}Icone}{3}{section.8}%
 \contentsline {paragraph}{}{3}{section*.9}%
+\contentsline {paragraph}{}{3}{section*.10}%
+\contentsline {paragraph}{}{3}{section*.11}%
+\contentsline {section}{\numberline {2}Détection de la disponibilité des capteurs \emph {(SensorAvailibility)}}{4}{section.2}%
+\contentsline {paragraph}{}{4}{section*.12}%
+\contentsline {paragraph}{}{4}{section*.13}%
+\contentsline {section}{\numberline {3}Accéléromètre \emph {(Accelerometer)}}{4}{section.3}%
+\contentsline {paragraph}{}{4}{section*.14}%
+\contentsline {paragraph}{}{4}{section*.15}%
+\contentsline {section}{\numberline {4}Direction \emph {(Direction)}}{5}{section.4}%
+\contentsline {paragraph}{}{5}{section*.16}%
+\contentsline {section}{\numberline {5}Secouer un appareil \emph {(ShakeDevice)}}{5}{section.5}%
+\contentsline {paragraph}{}{5}{section*.17}%
+\contentsline {paragraph}{}{5}{section*.18}%
+\contentsline {section}{\numberline {6}Proximité \emph {(Proximity)}}{5}{section.6}%
+\contentsline {paragraph}{}{5}{section*.19}%
+\contentsline {section}{\numberline {7}Géolocalisation \emph {(Geolocation)}}{5}{section.7}%
+\contentsline {paragraph}{}{5}{section*.20}%
+\contentsline {section}{\numberline {8}Extra}{5}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Icone}{5}{subsection.8.1}%
+\contentsline {paragraph}{}{5}{section*.21}%
+\contentsline {subsection}{\numberline {8.2}Retour}{6}{subsection.8.2}%
+\contentsline {paragraph}{}{6}{section*.22}%
+\contentsline {paragraph}{}{6}{section*.23}%
