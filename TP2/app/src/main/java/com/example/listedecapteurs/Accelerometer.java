@@ -44,7 +44,9 @@ public class Accelerometer extends AppCompatActivity implements SensorEventListe
         view = findViewById(R.id.backgroundView);
         //view.setBackgroundColor(Color.GREEN);
 
-        // Back button
+
+
+        /******************************* Button *********************/
         myButton = findViewById(R.id.my_button);
             myButton.setOnClickListener(new View.OnClickListener() {
                 @Override

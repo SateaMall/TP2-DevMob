@@ -18,6 +18,7 @@ public class Proximity extends AppCompatActivity implements SensorEventListener 
     private SensorManager sensorManager;
     private Sensor proximitySensor;
     private ImageView imageView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,11 +29,7 @@ public class Proximity extends AppCompatActivity implements SensorEventListener 
         proximitySensor = sensorManager.getDefaultSensor(Sensor.TYPE_PROXIMITY);
 
 
-
-
-
-
-
+/******************************* Button *********************/
         myButton = findViewById(R.id.my_button);
         myButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,7 +43,7 @@ public class Proximity extends AppCompatActivity implements SensorEventListener 
     @Override
     public void onSensorChanged(SensorEvent event) {
         if (event.sensor.getType() == Sensor.TYPE_PROXIMITY) {
-            if (event.values[0] < proximitySensor.getMaximumRange()) {
+            if (event.values[0] <2.0f) {
                 // Object is near
                 imageView.setImageResource(R.drawable.near_image); // Replace with your 'near' image
             } else {

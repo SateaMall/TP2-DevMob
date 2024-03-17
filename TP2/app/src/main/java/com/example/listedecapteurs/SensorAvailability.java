@@ -77,7 +77,7 @@ public class SensorAvailability extends AppCompatActivity {
                 checkSensorAvailability(selectedSensor);
             }
         });
-
+/******************************* Button *********************/
 
         myButton = findViewById(R.id.my_button);
         myButton.setOnClickListener(new View.OnClickListener() {

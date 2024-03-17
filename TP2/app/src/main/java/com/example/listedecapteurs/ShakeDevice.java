@@ -24,32 +24,27 @@ public class ShakeDevice extends AppCompatActivity implements SensorEventListene
     private CameraManager cameraManager;
     private Sensor sensor_Acc;
     private String cameraId;
-    private boolean hasFlashlight;
-
+    private boolean isFlashlightOn = false;
+    private static final int SHAKE_THRESHOLD = 6;
+    private long lastShakeTimestamp = 0; // Time stamp is to avoid the flash goes on and off in the same movement. so we put a delay
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shake_device);
+
         sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         sensor_Acc = sensorManager.getDefaultSensor(TYPE_ACCELEROMETER);
         cameraManager = (CameraManager) getSystemService(CAMERA_SERVICE);
         try {
             cameraId = cameraManager.getCameraIdList()[0];
-            Boolean hasFlashlight = getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH);
         } catch (CameraAccessException e) {
             e.printStackTrace();
         }
 
 
-        sensorManager.registerListener(this, sensor_Acc, SensorManager.SENSOR_DELAY_UI);
+        sensorManager.registerListener(this, sensor_Acc, SensorManager.SENSOR_DELAY_GAME);
 
-
-
-
-
-
-
-
+/******************************* Button *********************/
         myButton = findViewById(R.id.my_button);
         myButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -58,6 +53,7 @@ public class ShakeDevice extends AppCompatActivity implements SensorEventListene
                 startActivity(intent);
             }
         });
+
     }
 
     @Override
@@ -65,12 +61,42 @@ public class ShakeDevice extends AppCompatActivity implements SensorEventListene
         if (event.sensor.getType()== TYPE_ACCELEROMETER){ onAccelerometerChanged(event); }
     }
     private void onAccelerometerChanged(SensorEvent event) {
+        long currentTimeMillis = System.currentTimeMillis();
+        if ((currentTimeMillis - lastShakeTimestamp) > 1000) {
+            float x = event.values[0];
+            float y = event.values[1];
+            float z = event.values[2];
 
+            float shakeMagnitude = (float) Math.sqrt(x * x + y * y + z * z) - SensorManager.GRAVITY_EARTH;
+            ;
+            if (shakeMagnitude > SHAKE_THRESHOLD) {
+                toggleFlashlight();
+                lastShakeTimestamp = currentTimeMillis;
+            }
+        }
 
 
     }
     @Override
-    public void onAccuracyChanged(Sensor sensor, int accuracy) {
+    public void onAccuracyChanged(Sensor sensor, int accuracy) { }
+    @Override
+    protected void onPause() {
+        super.onPause();
+        sensorManager.unregisterListener(this); //Stop the sensor when the app is in the background to conserve battery
+    }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Sensor accelerometer = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
+        sensorManager.registerListener(this, accelerometer, SensorManager.SENSOR_DELAY_NORMAL); // Resume listening to sensor events when the app is been reopened from the background
+    }
+    private void toggleFlashlight() {
+        isFlashlightOn = !isFlashlightOn;
+        try {
+            cameraManager.setTorchMode(cameraId, isFlashlightOn);
+        } catch (CameraAccessException e) {
+            e.printStackTrace();
+        }
     }
 }

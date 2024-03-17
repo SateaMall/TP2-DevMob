@@ -16,6 +16,9 @@ public class Geolocation extends AppCompatActivity {
         setContentView(R.layout.activity_geolocation);
 
 
+
+
+        /******************************* Button *********************/
         myButton = findViewById(R.id.my_button);
         myButton.setOnClickListener(new View.OnClickListener() {
             @Override
