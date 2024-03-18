@@ -28,7 +28,7 @@ public class Geolocation extends AppCompatActivity {
     private FloatingActionButton myButton;
     private SensorManager sensorManager;
 
-    private TextView locationTextView;
+    //private TextView locationTextView;
     private LocationManager locationManager;
 
     //    @SuppressLint("MissingPermission")
@@ -37,32 +37,14 @@ public class Geolocation extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_geolocation);
 
-        locationTextView = findViewById(R.id.locationTextView);
-
-        sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
-
+        //locationTextView = findViewById(R.id.locationTextView);
         locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
-        
-        Log.v("customGPS", "avant");
-        ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_NETWORK_STATE,Manifest.permission.ACCESS_FINE_LOCATION,Manifest.permission.ACCESS_COARSE_LOCATION}, 0);
-        /*if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            // TODO: Consider calling
-            //    ActivityCompat#requestPermissions
-            Log.v("customGPS","dedant");
-            //requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION});
-            if (ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.ACCESS_FINE_LOCATION)) {
-                ActivityCompat.requestPermissions(this,new String[] {Manifest.permission.ACCESS_FINE_LOCATION},0);
-            } else {
-                ActivityCompat.requestPermissions(this,new String[] {Manifest.permission.ACCESS_FINE_LOCATION},0);
-            }
-            // here to request the missing permissions, and then overriding
-            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-            //                                          int[] grantResults)
-            // to handle the case where the user grants the permission. See the documentation
-            // for ActivityCompat#requestPermissions for more details.
-            return;
-        }*/
-        Log.v("customGPS", "après");
+
+        ActivityCompat.requestPermissions(this, new String[] {
+                Manifest.permission.ACCESS_NETWORK_STATE,
+                Manifest.permission.ACCESS_FINE_LOCATION,
+                Manifest.permission.ACCESS_COARSE_LOCATION},
+                0);
 
 
         /******************************* Button *********************/
@@ -76,46 +58,31 @@ public class Geolocation extends AppCompatActivity {
         });
     }
 
+    @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,
                                            @NonNull int[] grantResults) {
         if (requestCode == 0) {
-            Log.v("customGPS", "onRequestPermissionsResult");
-            //Toast.makeText(this,"Coucou", Toast.LENGTH_SHORT).show();
-            if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            if (ActivityCompat.checkSelfPermission(this,
+                    Manifest.permission.ACCESS_FINE_LOCATION) !=
+                    PackageManager.PERMISSION_GRANTED &&
+                    ActivityCompat.checkSelfPermission(this,
+                            Manifest.permission.ACCESS_COARSE_LOCATION) !=
+                            PackageManager.PERMISSION_GRANTED) {
                 return;
-            } else {
-                Log.v("customGPS", "permissions for location granted");
             }
             Location location = locationManager
-                    .getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
+                    .getLastKnownLocation(LocationManager.GPS_PROVIDER);
             String lat = null;
             String longi = null;
-            //Log.v("customGPS",location.toString());
-
-            Log.v("customGPS", "get all providers");
-            for (String provider : locationManager.getAllProviders()) {
-                Log.v("customGPS", provider);
-            }
-
-            for (String provider : locationManager.getProviders(true)) {
-                Location l = locationManager.getLastKnownLocation(provider);
-                Log.v("customGPS", provider);
-                if (l == null) {
-                    continue;
-                } else {
-                    Log.v("customGPS", location.toString());
-                }
-            }
             if (location != null) {
                 lat = String.valueOf(location.getLatitude());
                 longi = String.valueOf(location.getLongitude());
             }
 
-            Log.v("customGPS","test"+lat);
-            Log.v("customGPS","test"+longi);
+            String s = "Lattitude="+lat+" Longitude="+longi;
+            Toast.makeText(this,s, Toast.LENGTH_SHORT).show();
 
-
-            Log.v("customGPS","après les strings");
+            //locationTextView.setText(s);
         }
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
     }

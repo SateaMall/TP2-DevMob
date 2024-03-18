@@ -27,10 +27,11 @@
 \contentsline {paragraph}{}{6}{section*.21}%
 \contentsline {section}{\numberline {7}Géolocalisation \emph {(Geolocation)}}{6}{section.7}%
 \contentsline {paragraph}{}{6}{section*.22}%
+\contentsline {paragraph}{}{6}{section*.23}%
 \contentsline {section}{\numberline {8}Extra}{6}{section.8}%
 \contentsline {subsection}{\numberline {8.1}Icone}{6}{subsection.8.1}%
-\contentsline {paragraph}{}{6}{section*.23}%
 \contentsline {paragraph}{}{6}{section*.24}%
+\contentsline {paragraph}{}{6}{section*.25}%
 \contentsline {subsection}{\numberline {8.2}Retour}{7}{subsection.8.2}%
-\contentsline {paragraph}{}{7}{section*.25}%
 \contentsline {paragraph}{}{7}{section*.26}%
+\contentsline {paragraph}{}{7}{section*.27}%

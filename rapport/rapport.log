@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.31)  17 MAR 2024 16:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.31)  18 MAR 2024 01:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -437,9 +437,9 @@ Package pdftex.def Info: rapport/img//makima_standing.jpg  used on input line 4
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./rapport/img//makima_stan
 ding.jpg>] (rapport//rapport.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 31.
+(Font)              <7> on input line 32.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 31.
+(Font)              <5> on input line 32.
 )
 \tf@toc=\write3
 \openout3 = `rapport.toc'.
@@ -714,86 +714,140 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--139
 []\T1/cmr/bx/n/14.4 Géolocalisation \T1/cmr/bx/it/14.4 (Geo-lo-ca-
  []
 
-<rapport/img//icone/imageAsset.png, id=116, 823.075pt x 619.31375pt>
-File: rapport/img//icone/imageAsset.png Graphic file (type png)
-<use rapport/img//icone/imageAsset.png>
-Package pdftex.def Info: rapport/img//icone/imageAsset.png  used on input line 
-149.
-(pdftex.def)             Requested size: 221.95676pt x 167.00905pt.
-<rapport/img//icone/res.png, id=117, 1231.60126pt x 1007.765pt>
-File: rapport/img//icone/res.png Graphic file (type png)
-<use rapport/img//icone/res.png>
-Package pdftex.def Info: rapport/img//icone/res.png  used on input line 150.
-(pdftex.def)             Requested size: 221.95676pt x 181.60515pt.
-<rapport/img//icone/drawer.png, id=118, 1084.05pt x 2348.775pt>
-File: rapport/img//icone/drawer.png Graphic file (type png)
-<use rapport/img//icone/drawer.png>
-Package pdftex.def Info: rapport/img//icone/drawer.png  used on input line 151.
+<rapport/img//geo/request.png, id=116, 651.43375pt x 164.615pt>
+File: rapport/img//geo/request.png Graphic file (type png)
+<use rapport/img//geo/request.png>
+Package pdftex.def Info: rapport/img//geo/request.png  used on input line 145.
+(pdftex.def)             Requested size: 221.95676pt x 56.08641pt.
 
-(pdftex.def)             Requested size: 146.34044pt x 317.07614pt.
+Overfull \hbox (9.90399pt too wide) in paragraph at lines 144--146
+\T1/cmr/bx/n/10 tem-Ser-vice(Context.LOCATION_SERVICE)\T1/cmr/m/n/10 .
+ []
 
-Overfull \hbox (0.47281pt too wide) in paragraph at lines 148--152
+
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 144--146
+[] 
+ []
+
+<rapport/img//geo/onRequest.png, id=117, 701.62125pt x 627.34375pt>
+File: rapport/img//geo/onRequest.png Graphic file (type png)
+<use rapport/img//geo/onRequest.png>
+Package pdftex.def Info: rapport/img//geo/onRequest.png  used on input line 150
+.
+(pdftex.def)             Requested size: 221.95676pt x 198.4567pt.
+<rapport/img//geo/screenshotSmall.png, id=118, 285.065pt x 130.4875pt>
+File: rapport/img//geo/screenshotSmall.png Graphic file (type png)
+<use rapport/img//geo/screenshotSmall.png>
+Package pdftex.def Info: rapport/img//geo/screenshotSmall.png  used on input li
+ne 151.
+(pdftex.def)             Requested size: 221.95676pt x 101.59863pt.
+
+Underfull \hbox (badness 6944) in paragraph at lines 149--152
+[]\T1/cmr/m/n/10 Puis, quand on re-çoit l'au-to-ri-sa-tion (en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--152
+\T1/cmr/m/n/10 re-dé-fi-nis-sant \T1/cmr/bx/n/10 on-Re-quest-Per-mis-sions-Re-s
+ult\T1/cmr/m/n/10 ),
+ []
+
+
+Underfull \hbox (badness 7504) in paragraph at lines 149--152
+\T1/cmr/m/n/10 On ap-pel la fonc-tion \T1/cmr/bx/n/10 get-LastK-nown-Lo-ca-
+ []
+
+
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 149--152
 []
  []
 
 
-Overfull \hbox (0.47281pt too wide) in paragraph at lines 148--152
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 149--152
+[] 
+ []
+
+<rapport/img//icone/imageAsset.png, id=119, 823.075pt x 619.31375pt>
+File: rapport/img//icone/imageAsset.png Graphic file (type png)
+<use rapport/img//icone/imageAsset.png>
+Package pdftex.def Info: rapport/img//icone/imageAsset.png  used on input line 
+159.
+(pdftex.def)             Requested size: 221.95676pt x 167.00905pt.
+<rapport/img//icone/res.png, id=120, 1231.60126pt x 1007.765pt>
+File: rapport/img//icone/res.png Graphic file (type png)
+<use rapport/img//icone/res.png>
+Package pdftex.def Info: rapport/img//icone/res.png  used on input line 160.
+(pdftex.def)             Requested size: 221.95676pt x 181.60515pt.
+<rapport/img//icone/drawer.png, id=121, 1084.05pt x 2348.775pt>
+File: rapport/img//icone/drawer.png Graphic file (type png)
+<use rapport/img//icone/drawer.png>
+Package pdftex.def Info: rapport/img//icone/drawer.png  used on input line 161.
+
+(pdftex.def)             Requested size: 146.34044pt x 317.07614pt.
+
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 158--162
+[]
+ []
+
+
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 158--162
 []
  []
 
 [6 <./rapport/img//proximity/onSensorChanged.png> <./rapport/img//proximity/far
-.png> <./rapport/img//proximity/close.png> <./rapport/img//icone/imageAsset.png
-> <./rapport/img//icone/res.png> <./rapport/img//icone/drawer.png>]
-<rapport/img//button/boutton.png, id=134, 576.1525pt x 316.18124pt>
+.png> <./rapport/img//proximity/close.png> <./rapport/img//geo/request.png> <./
+rapport/img//geo/onRequest.png> <./rapport/img//geo/screenshotSmall.png>]
+<rapport/img//button/boutton.png, id=138, 576.1525pt x 316.18124pt>
 File: rapport/img//button/boutton.png Graphic file (type png)
 <use rapport/img//button/boutton.png>
-Package pdftex.def Info: rapport/img//button/boutton.png  used on input line 16
+Package pdftex.def Info: rapport/img//button/boutton.png  used on input line 17
 0.
 (pdftex.def)             Requested size: 221.95676pt x 121.80493pt.
-<rapport/img//button/onClick.png, id=135, 746.79pt x 235.88126pt>
+<rapport/img//button/onClick.png, id=139, 746.79pt x 235.88126pt>
 File: rapport/img//button/onClick.png Graphic file (type png)
 <use rapport/img//button/onClick.png>
-Package pdftex.def Info: rapport/img//button/onClick.png  used on input line 16
+Package pdftex.def Info: rapport/img//button/onClick.png  used on input line 17
 1.
 (pdftex.def)             Requested size: 221.95676pt x 70.10625pt.
 
-Overfull \hbox (0.47281pt too wide) in paragraph at lines 160--162
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 170--172
 []
  []
 
 
-Overfull \hbox (0.47281pt too wide) in paragraph at lines 160--162
+Overfull \hbox (0.47281pt too wide) in paragraph at lines 170--172
 [] 
  []
 
-[7 <./rapport/img//button/boutton.png> <./rapport/img//button/onClick.png>]
-(rapport//rapport.aux) ) 
+[7 <./rapport/img//icone/imageAsset.png> <./rapport/img//icone/res.png> <./rapp
+ort/img//icone/drawer.png> <./rapport/img//button/boutton.png> <./rapport/img//
+button/onClick.png>] (rapport//rapport.aux) ) 
 Here is how much of TeX's memory you used:
- 11136 strings out of 479551
- 182547 string characters out of 5876172
+ 11175 strings out of 479551
+ 183639 string characters out of 5876172
  482488 words of memory out of 5000000
- 28905 multiletter control sequences out of 15000+600000
+ 28938 multiletter control sequences out of 15000+600000
  482697 words of font info for 52 fonts, out of 8000000 for 9000
  395 hyphenation exceptions out of 8191
  60i,6n,63p,818b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecbx1200.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecbi1440.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ectt1000.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecti1000.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecbi1000.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecbx1000.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecbx1440.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecrm1000.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecti0900.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecbx0900.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecti1200.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecrm1200.600pk> </home/tony/.texlive2021/texmf-var/fonts/pk/ljfour/jkn
-appen/ec/ecrm1728.600pk>
-Output written on rapport//rapport.pdf (7 pages, 7407421 bytes).
+ </home/tony/.texlive2021/texmf-va
+r/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/tony/.texlive2021/texmf-va
+r/fonts/pk/ljfour/jknappen/ec/ecbi1440.600pk> </home/tony/.texlive2021/texmf-va
+r/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk> </home/tony/.texlive2021/texmf-va
+r/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> </home/tony/.texlive2021/texmf-va
+r/fonts/pk/ljfour/jknappen/ec/ecbi1000.600pk> </home/tony/.texlive2021/texmf-va
+r/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/tony/.texlive2021/texmf-va
+r/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/tony/.texlive2021/texmf-va
+r/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/tony/.texlive2021/texmf-va
+r/fonts/pk/ljfour/jknappen/ec/ecti0900.600pk> </home/tony/.texlive2021/texmf-va
+r/fonts/pk/ljfour/jknappen/ec/ecbx0900.600pk> </home/tony/.texlive2021/texmf-va
+r/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/tony/.texlive2021/texmf-va
+r/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/tony/.texlive2021/texmf-va
+r/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk>
+Output written on rapport//rapport.pdf (7 pages, 7507591 bytes).
 PDF statistics:
- 624 PDF objects out of 1000 (max. 8388607)
- 179 compressed objects within 2 object streams
- 44 named destinations out of 1000 (max. 500000)
- 217 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 637 PDF objects out of 1000 (max. 8388607)
+ 180 compressed objects within 2 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 232 words of extra memory for PDF output out of 10000 (max. 10000000)
 

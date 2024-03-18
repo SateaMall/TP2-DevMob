@@ -69,7 +69,7 @@
         \section*{Démonstration}
         \addcontentsline{toc}{section}{Démonstration}
             \paragraph{}
-            En ligne sur Youtube, à l'adresse URL \url{https://youtu.be/nQUkpSUjJlY} une démonstration vidéo de notre travail.
+            En ligne sur Youtube, à l'adresse URL \url{https://youtu.be/NjIdJrN-Rm8} une démonstration vidéo de notre travail.
         \section{Liste des capteurs \emph{(Index)}}
             \paragraph{}
                 Lorsque l'on déploie une application sur un smarphone, nous ne pouvons pas être sûr des capteurs que l'on aura a notre disposition. Dans cette section, nous allons regarder tout les capteurs disponible sur un appareil donné.
@@ -139,6 +139,16 @@
         \section{Géolocalisation \emph{(Geolocation)}}
             \paragraph{}
                 Dans de nombreuse application, il est souhaitable de connaitre la position de l'utilisateur. Pour ce faire, nous allons manipuler le gps.
+
+            \paragraph{}
+                Pour commencer nous accédons à un objet de type \emph{LocationManager} grâce à la fonction \textbf{getSystemService(Context.LOCATION\_SERVICE)}.
+                \noindent\includegraphics[width=.49\textwidth]{geo/request}
+
+                Ensuite, on demande les permissions pour avoir la localisation de l'utilisateur.
+                
+                Puis, quand on reçoit l'autorisation (en redéfinissant \textbf{onRequestPermissionsResult}), On appel la fonction \textbf{getLastKnownLocation(GPS\_PROVIDER)} qui nous rend une \emph{Location}. Il nous suffit maintenant d'utiliser les fonctions \textbf{getLatitude() et getLongitude()}.
+                \noindent\includegraphics[width=.49\textwidth]{geo/onRequest}
+                \noindent\includegraphics[width=.49\textwidth]{geo/screenshotSmall}
         \section{Extra}
             \subsection{Icone}
                 \paragraph{}
@@ -151,7 +161,7 @@
                     \includegraphics[height=.7\textwidth]{icone/drawer}
             \subsection{Retour}
                 \paragraph{}
-                    Nous avons placer un boutton de retour à l'écran d'acceuil.
+                    Nous avons placer un boutton de retour vers l'écran d'acceuil.
                     
                 \paragraph{}
                     Dans le layout, nous ajoutons un boutton flottant (\emph{FloatingActionButton}) dans le coin inférieur gauche de la vue.
